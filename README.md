@@ -67,7 +67,7 @@ I received inspiration for this project from X
 
 # Code Institute
 
-Welcome USER_NAME,
+Welcome DavW,
 
 We have preinstalled all of the tools you need to get started.
 
