@@ -1,17 +1,19 @@
+.container {
+ 
+  height: 100%;
+  background-color: #aadaff;
+  background-image: radial-gradient(#aadaff, #fff, rgb(230, 235, 230));
+}
+
+
+
 #map {
     height:500px;
     width:100%;
     padding:2px;
-    border: 5px solid #fff;
+    margin-top:25px;
+    border:5px solid #EDF5FC;
 }
-
-
-
-.body {
-  background-color:#aadaff;
-
-}
-
 
 /* Navbar */
 .navbar {
@@ -25,7 +27,7 @@
 }
 .navbar .navbar-brand {
     font-weight: bold;
-    font-family: 'Chewy', cursive;  
+    font-family: 'Bad Script', cursive;  
 }
 .navbar .navbar-nav a {
     font-weight: bold;  
@@ -35,21 +37,49 @@
 
 /* section header */
 .section-header {
+    color:rgb(134, 139, 144);
     font-weight: bold;
-    font-family: 'Chewy', cursive;
+    font-family: 'Bad Script', cursive;
     letter-spacing: .2em;
     text-align: center;
+    margin-top:50px;
 }
 
+
+body > article > div.section-header > div > h2 {
+
+}
+
+
 .features {
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     }
+
 .feature, img {
+    padding:15px;
+    margin:auto;
+    margin-bottom:80px;
     height:250px;
     width:250px;
     border-radius:50%;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
 }
-.img, mexico {
+
+
+
 
 }
+
+/*----
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #map {
+    height: 500px;
+    width: 100%;
+    padding: 2px;
+    margin-top: 25px;
+    border: 5px solid #EDF5FC;
+ }
+}
+----*/
