@@ -1,8 +1,9 @@
-.container-fluid {
+.html, body {
  
   height: 100%;
   background-color: #aadaff;
   background-image: radial-gradient(#aadaff, #fff, rgb(230, 235, 230));
+  
 }
 
 
@@ -10,10 +11,15 @@
 #map {
     height:500px;
     width:100%;
-    padding:2px;
-    margin-top:25px;
-    border:5px solid #EDF5FC;
-}
+    padding:0px;
+    margin-top:0;
+    border:0;
+    background-color: #564F6F;
+    
+    }
+    
+
+
 
 /* Navbar */
 .navbar {
@@ -32,7 +38,7 @@
 .navbar .navbar-nav a {
     font-weight: bold;  
     padding:0px;   
-}
+}  
 
 
 /* section header */
@@ -63,10 +69,12 @@ body > article > div.section-header > div > h2 {
     margin-bottom:80px;
     height:250px;
     width:250px;
-    border-radius:50%;
     text-align: center;
     font-family: 'Bad Script', cursive;
 }
+
+#greece, #mexico, #spain, #USA, #ireland, #brazil {
+border-radius: 50%;
 
 
 /*-----------FOOTER----------*/
@@ -123,3 +131,7 @@ i:hover {
   margin-top:20px;
  }
 }
+
+
+/*---- .content   ----*/
+
