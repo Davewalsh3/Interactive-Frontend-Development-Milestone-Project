@@ -76,15 +76,15 @@ body > article > div.section-header > div > h2 {
 #greece, #mexico, #spain, #USA, #ireland, #brazil {
 border-radius: 50%;
 
-
+}
 /*-----------FOOTER----------*/
-
-footer {
+.footer {
     border-color: transparent;
     text-align: center;
 }
 
 .foot {
+
     margin-top:25px;
     margin-bottom: 20px;
 }
