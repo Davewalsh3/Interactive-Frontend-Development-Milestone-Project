@@ -28,7 +28,7 @@
 /* MAP */
 
 #map {
-    height:500px;
+    min-height:500px;
     width:100%;
     padding:0px;
     margin-top:0;
@@ -61,6 +61,7 @@
     font-weight: bold;  
     padding:0px;   
 }  
+
 /*-----------*/
 
 
@@ -86,12 +87,12 @@
 /* features */
 
 .features {
-    margin:0;
-    padding:0;
+    margin:55px;
+    padding:55px;
     }
 
 .feature, img {
-    padding:15px;
+    padding:20px;
     margin:auto;
     margin-bottom:80px;
     height:250px;
@@ -153,12 +154,15 @@ button[type="submit"] {
 .footer {
     border-color: transparent;
     text-align: center;
+    
 }
+
 
 .foot {
 
     margin-top:25px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 
 a {
