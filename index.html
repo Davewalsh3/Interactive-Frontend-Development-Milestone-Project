@@ -21,21 +21,16 @@
 <script type="text/javascript">
    (function(){
       emailjs.init("user_whrtoRymFkO6BjV4IiU08");
-      emailjs.send("gmail", "contact", {
-                name: "TravelSome",
-                notes: "The holiday that I want is..."
-            })
+      
         })();
     </script>
 </head>
 
  <body>
 
-    <div class = "container-fluid">
+    <div class = "container-fluid ">
+        <header>
 
-
-	
-		<header>
 			<!--Nav---->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand" href="#">TravelSome</a>
@@ -53,14 +48,11 @@
 						</li>
 					</ul>
 
-
-					<form class="form-inline my-2 my-lg-0">
+                        <form class="form-inline my-2 my-lg-0">
 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
-
-
-				</div>
+                </div>
 			</nav>
         </header>
 
@@ -69,10 +61,11 @@
 
         
         <!---Map -->
-      <div class = map container-fluid>
-		 <div id="map">
-         </div>
-    </div>
+        
+           <div class = map >
+		     <div id="map"></div>
+             </div>
+       
        
 
 
@@ -91,10 +84,13 @@
       <!-- Three column row-->
 
 		<br>
-    <div class= "container-fluid>
+
+    <div class= "container-fluid features>
+
 		<section class="features">
 			
 			<br>
+
 			<div class="row">
 
 				<div class="col-12 col-md-6 col-lg-4">
@@ -146,16 +142,43 @@
                         <a class = "brazilflag" href="https://www.qries.com/">
 							<img id="brazil" alt="brazil" src="assets/images/brazilflag.jpg"></a>
 					</div>
+                </div>
 
 
-				</div>
+        </section>
+    </div>
+   
+	 
 
 
-                
-		</section>
+
+<div class= "container-fluid contact">
+
+<section class="contact">
+
+        <div class="row "></div>
+            <div>
+                <h3 class="contact-heading uppercase text-center">Looking for more information?</h3>
+                <h5 class="uppercase text-center">Please take a minute to fill out the form and we will get back to you!</h5>
+            </div>
         </div>
-	
+           
+        <div class= "row"><
+            <div class=" center-form">
+            <form onsubmit = "return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="" required></textarea>
+                
+            
+                <button type="submit" class="btn btn-secondary center-block">Send</button>
+                </form>
+            </div>
+        </div>
 
+    </section>
+</div>
+   
 <footer>
         <div class="container-fluid">
             <div class="row foot">
@@ -167,17 +190,12 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
 
 
+<!--Scripts-->
 
-   
-
-
-
-	<!--Scripts-->
-
-
+<script src= "assets/js/sendEmail.js"</script>
 	<script
 		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
 	</script>
