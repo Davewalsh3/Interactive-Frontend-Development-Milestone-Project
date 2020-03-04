@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
@@ -58,20 +59,32 @@
 
 
 
+<!--- Autocomplete location search"-->
 
+<div class="form-group">
+    <label>Location:</label>
+    <input type="text" class="form-control" id="search_input" placeholder="Type address..." />
+    <input type="hidden" id="loc_lat" />
+    <input type="hidden" id="loc_long" />
+</div>
+
+<!-- Display latitude and longitude -->
+<div class="latlong-view">
+    <p><b>Latitude:</b> <span id="latitude_view"></span></p>
+    <p><b>Longitude:</b> <span id="longitude_view"></span></p>
+</div>
+
+
+
+
+
+<!------------------------------------->
         
         <!---Map -->
         
-           <div class = map >
+           
 		     <div id="map"></div>
-             </div>
-       
-       
-
-
-
-
-
+     
 
         <!----section-header----->
 

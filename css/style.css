@@ -2,12 +2,18 @@
 /* media queries */
 
 
-@media (max-width:767px) {
+@media (max-width:360px) {
      
  .section-header, h2 {
-  margin-top:70px;
+  margin-top:30px;
   margin-bottom:135px;
  }
+body > div > div.container-fluid.section-header {
+    padding:0;
+    margin-bottom:20px;
+
+}
+ 
 }
 
 
