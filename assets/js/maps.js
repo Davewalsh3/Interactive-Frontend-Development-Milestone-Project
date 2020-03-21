@@ -1,4 +1,7 @@
-
+function initialize() {
+  initMap();
+  initAutocomplete();
+}
 // source : TraversyMedia youtube tutorial
 function initMap(){
       // Map options
@@ -19,6 +22,7 @@ function initMap(){
         position:{lat:53.350140,lng:-6.266155},
         map:map,
         });
+
 
        var infoWindow = new google.maps.InfoWindow({
         content:'<h1>Athens, Greece</h1>'
@@ -94,31 +98,16 @@ function initMap(){
 
 
 
-// Autocomplete Search search //
-// source https://www.codexworld.com/autocomplete-address-field-google-maps-javascript-api-places-library-jquery/ //
+// Autocomplete Search search, source = Google maps platform  https://www.youtube.com/watch?v=c3MjU9E9buQ //
+let autocomplete;
+function initAutocomplete() {
+    autocomplete = new google.maps.places.Autocomplete(
+        document.getElementById('autocomplete'),
+        {
+            types: ['establishment'],
+            componenentRestrictions: {'country' : ['AU']},
+            fields: ['place_id', 'geometry', 'name']
 
-var searchInput = 'search_input';
+        });
+}
 
-$(document).ready(function () {
-    var autocomplete;
-    autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
-        types: ['geocode'],
-    });
-	
-    google.maps.event.addListener(autocomplete, 'place_changed', function () {
-        var near_place = autocomplete.getPlace();
-        document.getElementById('loc_lat').value = near_place.geometry.location.lat();
-        document.getElementById('loc_long').value = near_place.geometry.location.lng();
-		
-        document.getElementById('latitude_view').innerHTML = near_place.geometry.location.lat();
-        document.getElementById('longitude_view').innerHTML = near_place.geometry.location.lng();
-    });
-});
-
-(document).on('change', '#'+searchInput, function () {
-    document.getElementById('latitude_input').value = '';
-    document.getElementById('longitude_input').value = '';
-	
-    document.getElementById('latitude_view').innerHTML = '';
-    document.getElementById('longitude_view').innerHTML = '';
-});
