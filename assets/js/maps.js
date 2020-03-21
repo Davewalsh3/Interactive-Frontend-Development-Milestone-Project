@@ -3,22 +3,22 @@
 function initMap(){
       // Map options
       var options = {
-        zoom:6,
-        center:{lat:53.270962,lng:-9.062691},
+        
+        center:
+        {lat:53.270962,
+            lng:-9.062691},
+            zoom:6,
         iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png'
+        
       }
-
       // New map
       var map = new google.maps.Map(document.getElementById('map'), options);
 
-     
       // Add marker
       var marker = new google.maps.Marker({
         position:{lat:53.350140,lng:-6.266155},
         map:map,
-        
-        
-      });
+        });
 
        var infoWindow = new google.maps.InfoWindow({
         content:'<h1>Athens, Greece</h1>'
