@@ -17,6 +17,8 @@ body > div > div.container-fluid.section-header {
 }
 
 
+
+
 /* main styling */
 
 .html, body {
@@ -71,23 +73,13 @@ body > div > div.container-fluid.section-header {
 /*-----------*/
 
 
-
-/* section header */
-.section-header, h2 {
-    font-size:1em;
-    color:rgb(134, 139, 144);
-    font-weight: bold;
-    font-family: 'Bad Script', cursive;
-    letter-spacing: .2em;
-    text-align: center;
-    margin-top:50px;
-}
 /*--------------------*/
+body > div > div.row > div > section {
 
-
-
-
-
+    background-color: transparent;
+    font-family: 'Bad Script', cursive;
+        margin-top: 15px;
+}
 
 
 /* features */
@@ -109,11 +101,7 @@ body > div > div.container-fluid.section-header {
 
 #greece, #mexico, #spain, #USA, #ireland, #brazil {
 border-radius: 50%;
-
 }
-/*---------------*/
-
-
 
 
 /*----contact form ----*/
@@ -168,7 +156,7 @@ button[type="submit"] {
 
     margin-top:25px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 a {
