@@ -26,7 +26,6 @@ body > div > div.container-fluid.section-header {
   height: 100%;
   background-color: #aadaff;
   background-image: radial-gradient(#aadaff, #fff, rgb(230, 235, 230));
-  padding:0px;
   
 }
 
@@ -156,18 +155,14 @@ body > div > div.row > div > section {
 
 /* features */
 
- 
-    
-
-
 .features {
     margin:55px;
     padding:55px;
     }
 
 .feature, img {
-    padding:0px!;
-    margin-left:12px;
+    padding:20px;
+    margin:auto;
     margin-bottom:80px;
     height:250px;
     width:250px;
