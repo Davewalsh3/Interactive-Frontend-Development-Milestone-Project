@@ -1,16 +1,17 @@
-
  
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -33.8688, lng: 151.2195},
-          zoom: 13,
-          mapTypeId: 'roadmap'
+          center: {lat: 53.412910, lng: -8.243890},
+          zoom: 4.5,
+          mapTypeId: 'hybrid'
         });
+
+
 
         // Create the search box and link it to the UI element.
         var input = document.getElementById('pac-input');
         var searchBox = new google.maps.places.SearchBox(input);
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+        map.controls[google.maps.ControlPosition.BOTTOM].push(input);
 
         // Bias the SearchBox results towards current map's viewport.
         map.addListener('bounds_changed', function() {
@@ -65,7 +66,7 @@
           });
           map.fitBounds(bounds);
         });
-      }
+    }
 
 
 
@@ -78,7 +79,9 @@
 }
 // source : TraversyMedia youtube tutorial
 function initMap(){
+
       // Map options
+
       var options = {
         
         center:
