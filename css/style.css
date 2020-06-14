@@ -144,16 +144,26 @@ body > div > div.container-fluid.section-header {
 /*-----------*/
 
 
-/*--------------------*/
+/*-----------Jumbotron--------*/
 body > div > div.row > div > section {
 
     background-color: transparent;
     font-family: 'Bad Script', cursive;
-        margin-top: 15px;
+    margin-top: 15px;
 }
 
 
 /* features */
+
+.button  {
+    border: solid 2px #c2e5ff;
+    margin:20px;
+    font-family: 'MuseoModerno', cursive;
+    color:#fff;
+    border-radius:20%;
+    background-color:#9b9ea0;
+    font-size:25px;
+}
 
 .features {
     margin:55px;
@@ -174,14 +184,6 @@ body > div > div.row > div > section {
 border-radius: 50%;
 }
 
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
-    border: 5px solid#fff;
-    font-family:'Bad Script', cursive;
-    font-size:20px;
-    border-radius: 50%;
-    background-color: #a29bfe;
-
-}
 .h3 {
     padding:0px;
 }

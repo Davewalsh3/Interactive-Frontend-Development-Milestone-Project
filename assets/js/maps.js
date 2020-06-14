@@ -1,9 +1,58 @@
 
- 
+ var map;
+function initialize()
+{
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: new google.maps.LatLng(48.1293954,12.556663),//Setting Initial Position
+    zoom: 9.5
+  });
+}
+
+function newLocation(newLat,newLng)
+{
+	map.setCenter({
+		lat : newLat,
+		lng : newLng
+	});
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+//Setting Location with jQuery
+$(document).ready(function ()
+{
+    $("#b1").on('click', function ()
+    {
+	  newLocation(34.992283,34.014011);
+	});
+  
+	$("#b2").on('click', function ()
+    {
+	  newLocation(21.1619,-86.8515);
+	});
+  
+    $("#b3").on('click', function ()
+    {
+	  newLocation(41.3828939,2.1774322);
+    });
+    $("#b4").on('click', function ()
+    {
+	  newLocation(25.7617,-80.1918);
+    });
+    $("#b5").on('click', function ()
+    {
+	  newLocation(53.3498,-6.2603);
+    });
+    $("#b6").on('click', function ()
+    {
+	  newLocation(-22.9110137,-43.2093727);
+	});
+});
+
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -33.8688, lng: 151.2195},
-          zoom: 13,
+          center: {lat: 53.3498, lng: 6.2603},
+          zoom: 3,
           mapTypeId: 'roadmap'
         });
 
@@ -65,108 +114,4 @@
           });
           map.fitBounds(bounds);
         });
-      }
-
-
-
-
-      /*-----------------------PREVIOUS MAP JS CODE / MAY NEED TO SELECT CODE LATER -----
-
-      function initialize() {
-  initMap();
-  initAutocomplete();
-}
-// source : TraversyMedia youtube tutorial
-function initMap(){
-      // Map options
-      var options = {
-        
-        center:
-        {lat:53.270962,
-            lng:-9.062691},
-            zoom:6,
-        iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png'
-        
-      }
-      // New map
-      var map = new google.maps.Map(document.getElementById('map'), options);
-
-      // Add marker
-      var marker = new google.maps.Marker({
-        position:{lat:53.350140,lng:-6.266155},
-        map:map,
-        });
-
-
-       var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Athens, Greece</h1>'
-      });
-       marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-
-      addMarker({
-          coords:{lat:53.270962,lng:-9.062691},
-          iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-        content:'<h1> Galway, Ireland  </h1>'
-        });
-
-      addMarker({
-          coords:{lat:23.634501,lng:-102.552788},
-          iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-          content:'<h1> Mexico City, Mexico  </h1>'
-        });
-      addMarker({
-          coords:{lat:40.416775,lng:-3.703790},
-        iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-        content:'<h1> Madrid, Spain </h1>'
-        });
-      addMarker({
-          coords:{lat:40.712776,lng:-74.00597},
-          iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-          content:'<h1> Park Row, New York, NY 10007 </h1>'
-
-        });
-      addMarker({
-          coords:{lat: 53.349804,lng:-6.260310},
-        iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-        content:'<h1> O Connell Street, Palatine Square, Dublin </h1>'
-      });
-      addMarker({
-          coords:{lat:-15.826691,lng:-47.921822},
-        iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-        content:'<h1> Brasília Brasil</h1>'
-        });
-        addMarker({
-          coords:{lat:37.983810,lng:23.727539},
-        iconImage:'https://maps.google.com/mapfiles/kml/shapes/sunny.png',
-        content:'<h1> Athens, Greece </h1>'
-        });
-
-      // Add Marker Function
-      function addMarker(props){
-        var marker = new google.maps.Marker({
-          position:props.coords,
-          map:map,
-          //icon:props.iconImage
-           
-        });
-
-        //check for custom icon
-        if(props.iconImage){
-            //set icon image
-            marker.setIcon(props.iconImage);
-        }
-
-        //check content
-        if(props.content){
-            var infoWindow = new google.maps.InfoWindow({
-        content:props.content
-      });
-       marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-        }      
     }
-}
-*/
