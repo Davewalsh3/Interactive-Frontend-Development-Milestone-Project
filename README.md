@@ -1,39 +1,38 @@
 Your Project's Name
-One or two paragraphs providing an overview of your project.
+Travelsome - Holidays
 
-Essentially, this part is your sales pitch.
+For my milestone 2 project I had devised a website that enabled the user to choose a country from the list, or a location from the search bar. 
+When they had selected the country, local tourist hotspots relative to that location would appear. This would allow users to be informed of facilities and events they can 
+attend while on holiday at this place.
+By giving numerous examples of 'sponsored' countries below the map, the user will find a variety of places to discover using the map above.
+The idea was to have a viewport for the location the user has in mind (map), a suggestion section (various countries listed below, with image and hyperlink contained within), 
+and a redirect to external third party package holiday supplier.
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website was designed for holiday goer's who were open to suggestion to where they would like to go.
+The buttons hidden in the country image below the map allowed the map to redirect to that location, and bring up local amenities of interest.
+The Map also featured an autocomplete search box which allowed users to access locations outside of the suggested countries pictured below the map.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As a user I want to access a Holiday website that can show me the location I am interested in on a map. 
+This website will highlight all relevant amenities that are relative to me and my holiday choice.
+The website will be easy to use, easy to navigate and will be a benefit to the users knowledge of potential holiday locations.
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+My wepage will consist of a top navbar, a search bar contained in here.
+As a landing page, the Map and Jumbotron related to the website brand will appear first.
+Below the map, there will be numerous buttons sat atop picture/hyperlink buttons.
+The buttons will redirect the map to a city in the named country.
+The image/hyperlink below will redirect the user to third party package holiday company.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
-Another feature idea
-Technologies Used
+Unfortunatly, I found my skill and understanding of Javascript to be very limited. 
+Despite time dedicated to increasing my knowledge, I find myself still unable to tie it all together and make it an affective part of my website.
+
+
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For this project I utilized HTML, CSS, Javscript, JQUERY and alot from https://developers.google.com/maps/documentation
 
 Contact form:
 Go to the "Contact Us" page
@@ -56,13 +55,11 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
+
 Content
-The text for section Y was copied from the Wikipedia article Z
+
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The photos used in this site were obtained from https://unsplash.com/ , https://www.freeimages.com/
 
 
 # Code Institute
