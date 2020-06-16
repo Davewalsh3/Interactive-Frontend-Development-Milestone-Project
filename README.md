@@ -24,6 +24,14 @@ Below the map, there will be numerous buttons sat atop picture/hyperlink buttons
 The buttons will redirect the map to a city in the named country.
 The image/hyperlink below will redirect the user to third party package holiday company.
 
+Media
+code sourced from .. 
+https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how  - Stack overflow
+https://developers.google.com/maps/documentation/javascript/places-autocomplete - Google
+https://developers.google.com/maps/documentation/javascript/places -Google
+https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLSL82sIxAdHxxOOIdL4u6waamJgOtTA3C&index=4&t=0s - TraversyMedia tutorial
+The photos used in this site were obtained from https://unsplash.com/ , https://www.freeimages.com/
+
 
 Features Left to Implement
 Unfortunatly, I found my skill and understanding of Javascript to be very limited. 
@@ -56,10 +64,7 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-Content
 
-Media
-The photos used in this site were obtained from https://unsplash.com/ , https://www.freeimages.com/
 
 
 # Code Institute
