@@ -1,4 +1,5 @@
-
+//some code sourced from https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how //
+ // https://developers.google.com/maps/documentation/javascript/places-autocomplete //
  var map;
 function initialize()
 {
