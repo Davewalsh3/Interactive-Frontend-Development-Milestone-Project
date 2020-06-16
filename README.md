@@ -10,7 +10,7 @@ and a redirect to external third party package holiday supplier.
 
 UX
 This website was designed for holiday goer's who were open to suggestion to where they would like to go.
-The buttons hidden in the country image below the map allowed the map to redirect to that location, and bring up local amenities of interest.
+The buttons in the country image below the map allowed the map to redirect to that location, and bring up local amenities of interest.
 The Map also featured an autocomplete search box which allowed users to access locations outside of the suggested countries pictured below the map.
 
 As a user I want to access a Holiday website that can show me the location I am interested in on a map. 
