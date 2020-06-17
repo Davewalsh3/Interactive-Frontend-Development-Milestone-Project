@@ -1,26 +1,8 @@
-/*------
+
 //some code sourced from https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how //
  // https://developers.google.com/maps/documentation/javascript/places-autocomplete //
- var map;
-function initialize()
-{
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: new google.maps.LatLng(48.1293954,12.556663),//Setting Initial Position
-    zoom: 9.5
-  });
-}
 
-
-
-google.maps.event.addDomListener(window, 'load', initialize);
-//error on some browsers
-
-//Setting Location with jQuery
-$(document).ready(function ()
-{
-    
-});
-----*/
+ 
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 53.3498, lng: 6.2603},
