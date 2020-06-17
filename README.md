@@ -6,11 +6,13 @@ When they had selected the country, local tourist hotspots relative to that loca
 attend while on holiday at this place.
 By giving numerous examples of 'sponsored' countries below the map, the user will find a variety of places to discover using the map above.
 The idea was to have a viewport for the location the user has in mind (map), a suggestion section (various countries listed below, with image and hyperlink contained within), 
-and a redirect to external third party package holiday supplier.
+and a redirect button below to an external third party package holiday supplier.
 
 UX
 This website was designed for holiday goer's who were open to suggestion to where they would like to go.
 The buttons in the country image below the map allowed the map to redirect to that location, and bring up local amenities of interest.
+The maps feature allowed users to utiilize google maps street view, in order to look at their potential destination in detail before they go.
+I implemented a user guide to do this, to increase user participation.
 The Map also featured an autocomplete search box which allowed users to access locations outside of the suggested countries pictured below the map.
 
 As a user I want to access a Holiday website that can show me the location I am interested in on a map. 
@@ -18,7 +20,7 @@ This website will highlight all relevant amenities that are relative to me and m
 The website will be easy to use, easy to navigate and will be a benefit to the users knowledge of potential holiday locations.
 
 Features
-My wepage will consist of a top navbar, a search bar contained in here.
+My webpage will consist of a top navbar, a search bar contained in here.
 As a landing page, the Map and Jumbotron related to the website brand will appear first.
 Below the map, there will be numerous buttons sat atop picture/hyperlink buttons.
 The buttons will redirect the map to a city in the named country.
@@ -41,10 +43,8 @@ Despite time dedicated to increasing my knowledge, I find myself still unable to
 <details>
   <summary>Click to expand!</summary>
   ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+  
+    
 </details>
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.

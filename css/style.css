@@ -29,6 +29,7 @@ body > div > div.container-fluid.section-header {
   
 }
 
+
 /*------------------*/
 
 
@@ -39,12 +40,40 @@ body > div > div.container-fluid.section-header {
     min-height:500px;
     width:100%;
     padding:0px;
-    margin-top:25px;
+    margin-top:0px;
+    margin-bottom:5px;
     border:3px solid #fff;
-    background-color:;
+    
     
     }
+ .title {
+     font-size:20px;
+     background-color: #cee6f8;
+ }
  
+
+
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+
+     
+ }
  #description {
         font-family: 'Bad Script', cursive;
         font-size: 15px;

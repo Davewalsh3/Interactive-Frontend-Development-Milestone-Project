@@ -6,7 +6,7 @@
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 53.3498, lng: 6.2603},
-          zoom: 12.5,
+          zoom:6.5,
           mapTypeId: 'roadmap'
         });
 
@@ -75,7 +75,7 @@
 		        lat : newLat,
 		        lng : newLng
             });
-            map.setZoom(12.5);
+            map.setZoom(11.5);
 
 
         }
@@ -108,9 +108,3 @@
     }
     
 
-
-    // Is my google maps api key script formatcorrect?
-    //Should there be a callback there? or are my functions being called by the JS file?
-    // Do I need to initialize the map with google.maps.event.addDomListener(window, 'load', initialize);? is it already being initialized?
-    //How can I make both these functions work on my map at the same time? Does one need slot into the other somewhere or
-    // am I repeating things that need only one instance? i.e callbacks, initializing functions.. 
