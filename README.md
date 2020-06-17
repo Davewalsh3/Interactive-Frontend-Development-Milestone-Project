@@ -37,7 +37,15 @@ Features Left to Implement
 Unfortunatly, I found my skill and understanding of Javascript to be very limited. 
 Despite time dedicated to increasing my knowledge, I find myself still unable to tie it all together and make it an affective part of my website.
 
-
+# A collapsible section with markdown
+<details>
+  <summary>Click to expand!</summary>
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 For this project I utilized HTML, CSS, Javscript, JQUERY and alot from https://developers.google.com/maps/documentation
