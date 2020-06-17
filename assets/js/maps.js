@@ -1,3 +1,4 @@
+/*------
 //some code sourced from https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how //
  // https://developers.google.com/maps/documentation/javascript/places-autocomplete //
  var map;
@@ -9,51 +10,21 @@ function initialize()
   });
 }
 
-function newLocation(newLat,newLng)
-{
-	map.setCenter({
-		lat : newLat,
-		lng : newLng
-	});
-}
+
 
 google.maps.event.addDomListener(window, 'load', initialize);
+//error on some browsers
 
 //Setting Location with jQuery
 $(document).ready(function ()
 {
-    $("#b1").on('click', function ()
-    {
-	  newLocation(34.992283,34.014011);
-	});
-  
-	$("#b2").on('click', function ()
-    {
-	  newLocation(21.1619,-86.8515);
-	});
-  
-    $("#b3").on('click', function ()
-    {
-	  newLocation(41.3828939,2.1774322);
-    });
-    $("#b4").on('click', function ()
-    {
-	  newLocation(25.7617,-80.1918);
-    });
-    $("#b5").on('click', function ()
-    {
-	  newLocation(53.3498,-6.2603);
-    });
-    $("#b6").on('click', function ()
-    {
-	  newLocation(-22.9110137,-43.2093727);
-	});
+    
 });
-
+----*/
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 53.3498, lng: 6.2603},
-          zoom: 3,
+          zoom: 12.5,
           mapTypeId: 'roadmap'
         });
 
@@ -115,7 +86,45 @@ $(document).ready(function ()
           });
           map.fitBounds(bounds);
         });
+
+        function newLocation(newLat,newLng)
+        {
+	        map.setCenter({
+		        lat : newLat,
+		        lng : newLng
+            });
+            map.setZoom(12.5);
+
+
+        }
+         $("#b1").on('click', function ()
+    {
+	  newLocation(34.992283,34.014011);
+	});
+  
+	$("#b2").on('click', function ()
+    {
+	  newLocation(21.1619,-86.8515);
+	});
+  
+    $("#b3").on('click', function ()
+    {
+	  newLocation(41.3828939,2.1774322);
+    });
+    $("#b4").on('click', function ()
+    {
+	  newLocation(25.7617,-80.1918);
+    });
+    $("#b5").on('click', function ()
+    {
+	  newLocation(53.3498,-6.2603);
+    });
+    $("#b6").on('click', function ()
+    {
+	  newLocation(-22.9110137,-43.2093727);
+	});
     }
+    
 
 
     // Is my google maps api key script formatcorrect?
