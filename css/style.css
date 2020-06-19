@@ -52,6 +52,9 @@
     width: 100%;
     background-color:#aadaff;
     border: 0; 
+    position:fixed;
+    padding:3px;
+    z-index:9999;
 }
 .navbar .navbar-toggler {
     border: 0;
@@ -112,6 +115,7 @@ body > div > div.row > div > section {
     margin-top: 0px;
     margin-bottom:15px;
     padding:20px;
+    margin-top:20px;
 }
 
 

@@ -8,6 +8,7 @@
 
 	<title>TravelSome | Find your next getaway today!</title>
     <link href= "https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -26,11 +27,11 @@
 	<div class="container-fluid ">
 		
         
-        <header>
+        <header id=page>
 
 			<!--Navbar and Search box---->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">TravelSome</a>
+				<a class="navbar-brand" href="#page">TravelSome</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,7 +42,7 @@
 							<a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
+							<a class="nav-link" href="#contact">Contact Us</a>
 						</li>
 					</ul>
 
@@ -170,7 +171,7 @@
 
 					<section class="contact">
 
-						<div class="row "></div>
+						<div class="row" id ="contact"></div>
 						<div>
 							<h3 class="contact-heading uppercase text-center">Looking for more information?</h3>
 							<h5 class="uppercase text-center">Please take a minute to fill out the form and we will get
