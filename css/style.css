@@ -2,9 +2,10 @@
 /* media queries */
 
 
-@media (max-width:360px) {
-     
- .section-header, h2 {
+@media only screen and (max-width: 360px) {
+
+
+.section-header, h2 {
   margin-top:30px;
   margin-bottom:135px;
  }
@@ -13,9 +14,15 @@ body > div > div.container-fluid.section-header {
     margin-bottom:20px;
 
 }
- 
+ body > div.container-fluid > div.row.background-image > div > section > div > div > img {
+    max-width:20%;
+    height:auto;
+    border: 3px solid #aadaff;
 }
-
+body > div.container-fluid > div.row.background-image > div > section > div > div {
+    margin:25px;
+}
+}
 
 
 
@@ -69,11 +76,16 @@ div.transbox p {
   margin-top:10px;
   margin-bottom:10px;
 }
+body > div.container-fluid > div.row.background-image > div > section > div > div > img {
+    width:50px;
+    height:auto;
+    border: 5px solid #aadaff;
+    margin:0px;
+    padding:0px;
+}
 
-
-
-     
- }
+  
+ 
  #description {
         font-family: 'Bad Script', cursive;
         font-size: 15px;
@@ -178,7 +190,8 @@ body > div > div.row > div > section {
 
     background-color: transparent;
     font-family: 'Bad Script', cursive;
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom:-40px;
 }
 
 
