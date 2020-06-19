@@ -2,30 +2,33 @@
 /* media queries */
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
 
 
 .section-header, h2 {
   margin-top:30px;
   margin-bottom:135px;
  }
-body > div > div.container-fluid.section-header {
-    padding:0;
-    margin-bottom:20px;
 
-}
  body > div.container-fluid > div.row.background-image > div > section > div > div > img {
     max-width:20%;
     height:auto;
     border: 3px solid #aadaff;
 }
 body > div.container-fluid > div.row.background-image > div > section > div > div {
-    margin:25px;
-}
-}
-body > div.container-fluid > div.row.background-image > div > section > div > div {
     margin:0px;
 }
+#pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 36px;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+}
+
 
 
 
@@ -139,7 +142,7 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
         font-family: Roboto;
         font-size: 15px;
         font-weight: 300;
-        margin-left: 12px;
+        margin-left: 36px;
         padding: 0 11px 0 13px;
         text-overflow: ellipsis;
         width: 400px;
@@ -210,11 +213,11 @@ body > div > div.row > div > section {
     background-color:#c2e5ff;
     font-size:25px;
 }
+.imagelinkcontainer {
+    margin-top:20px;
+    padding:0px;
 
-.imagelink {
-    margin:55px;
-    padding:55px;
-    }
+}
 
 .feature, img {
     padding:0px;
@@ -236,11 +239,7 @@ border-radius: 50%;
 
 
 
-.imagelink {
-    margin:0px;
-    padding:0px;
 
-}
 
 
 
