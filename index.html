@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<title>TravelSome | Find your next getaway today!</title>
+    <link href= "https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -19,6 +20,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
+
 <body>
 
 	<div class="container-fluid ">
@@ -26,7 +28,7 @@
         
         <header>
 
-			<!--Nav---->
+			<!--Navbar and Search box---->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand" href="#">TravelSome</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +56,6 @@
 
 
 
-        
-
 
 
     <!--- Jumbotron and landing-->
@@ -68,7 +68,8 @@
                 <div class="background">
                      <div class="transbox">
                     <p> TravelSome allows you to explore within Google Maps using Streetview. </p>
-                      <p class="lead">Click on the country destinations below the map to center the map, or choose a package below from our partners   </p>
+                      <p class="lead">Double-click the map to zoom in, or click on the country destinations below the map to center the map
+                     </p>
                       <p> Drag the orange figure from the Map legend to where you want to explore! </p>
                       <img src="/assets/images/pegman.png" alt="Pegman icon">
                      
@@ -81,12 +82,15 @@
    
 
             
-		<!--- Autocomplete location search for Maps"-->
-            <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+		<!--- Google Maps api & Autocomplete search box---->
+
+            <input id="pac-input" class="controls" type="text" placeholder=" Enter a destination here!">
 			<div id="map"></div>
 			
 			<br>
-
+      <div class="alert">      
+<p> Click on the images below the Country name to find a great deal with one of our partners!</p>
+</div>
 		   
                     <section class= "imagelinkcontainer">
 
@@ -222,7 +226,7 @@
     })();
 	</script>
 
-       
+       <script src = "https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js" > </script>
         <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script><script src = "js/jquery.min"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>

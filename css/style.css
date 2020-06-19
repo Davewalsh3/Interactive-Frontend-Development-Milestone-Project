@@ -10,12 +10,15 @@
   margin-bottom:135px;
  }
 
+ 
  body > div.container-fluid > div.row.background-image > div > section > div > div > img {
-    max-width:20%;
-    height:auto;
-    border: 3px solid #aadaff;
-}
-body > div.container-fluid > div.row.background-image > div > section > div > div {
+     max-width:50px;
+     height:auto;
+     border: 2px dotted #fff;
+ }
+ 
+ 
+ body > div.container-fluid > div.row.background-image > div > section > div > div {
     margin:0px;
 }
 #pac-input {
@@ -27,12 +30,13 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
         text-overflow: ellipsis;
         width: 200px;
       }
+      
 }
 
 
 
 
-/* main styling */
+
 
 .html, body {
  
@@ -42,24 +46,30 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
   
 }
 
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#aadaff;
+    border: 0; 
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;  
+}
+.navbar .navbar-nav a {
+    font-weight: bold;  
+    padding:0px;   
+}  
 
-/*------------------*/
 
 
+/* main content */
 
-/* MAP */
-
-#map {
-    min-height:500px;
-    width:100%;
-    padding:0px;
-    margin-top:0px;
-    margin-bottom:5px;
-    border:3px solid #fff;
-    
-    
-    }
- .title {
+.title {
      font-size:20px;
      background-color: #cee6f8;
  }
@@ -82,16 +92,45 @@ div.transbox p {
   margin-top:10px;
   margin-bottom:10px;
 }
-body > div.container-fluid > div.row.background-image > div > section > div > div > img {
-    width:50px;
-    height:auto;
-    border: 5px solid #aadaff;
-    margin:0px;
-    padding:0px;
+
+
+ body > div.container-fluid > div.row.background-image > div > section > div > div > img {
+     max-width:50px;
+     height:auto;
+     border: 2px dotted #fff;
+     
+ }
+ 
+
+
+/*Jumbotron*/
+
+body > div > div.row > div > section {
+
+    background-color: transparent;
+    font-family: 'Bad Script', cursive;
+    margin-top: 0px;
+    margin-bottom:15px;
+    padding:20px;
 }
 
-  
+
+
+/* MAP */
+
+
+#map {
+    min-height:500px;
+    width:100%;
+    padding:0px;
+    margin-top:0px;
+    margin-bottom:5px;
+    border:3px solid #fff;
+    
+    
+    }
  
+
  #description {
         font-family: 'Bad Script', cursive;
         font-size: 15px;
@@ -140,9 +179,9 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
       #pac-input {
         background-color: #fff;
         font-family: Roboto;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 300;
-        margin-left: 36px;
+        margin-left: 38px;
         padding: 0 11px 0 13px;
         text-overflow: ellipsis;
         width: 400px;
@@ -164,44 +203,7 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
       }
 
  
- /*----------*/
-
-
-
-
-/* Navbar */
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color:#aadaff;
-    border: 0; 
-}
-.navbar .navbar-toggler {
-    border: 0;
-}
-.navbar .navbar-brand {
-    font-weight: bold;
-    font-family: 'Bad Script', cursive;  
-}
-.navbar .navbar-nav a {
-    font-weight: bold;  
-    padding:0px;   
-}  
-
-/*-----------*/
-
-
-/*-----------Jumbotron--------*/
-body > div > div.row > div > section {
-
-    background-color: transparent;
-    font-family: 'Bad Script', cursive;
-    margin-top: 0px;
-    margin-bottom:15px;
-    padding:20px;
-}
-
-
+ 
 /* features */
 
 .button  {
@@ -236,29 +238,15 @@ border-radius: 50%;
 .h3 {
     padding:0px;
 }
+body > div.container-fluid > div.alert > p {
+        font-family:  'Bad Script', cursive;
+        font-size: 16px;
+        font-weight:bold;
+        color:#4d90fe99;
+        border: 2px solid #fff;
+        text-align:center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /*----contact form ----*/
@@ -292,11 +280,6 @@ button[type="submit"] {
     color: #fafafa;
 
 }
-/*-----------------------*/
-
-
-
-
 
 
 /*-----------FOOTER----------*/
@@ -348,4 +331,3 @@ i:hover {
     color: #564F6F;
 }
 
-/*----------------------------------------------------*/
