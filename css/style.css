@@ -23,6 +23,9 @@ body > div.container-fluid > div.row.background-image > div > section > div > di
     margin:25px;
 }
 }
+body > div.container-fluid > div.row.background-image > div > section > div > div {
+    margin:0px;
+}
 
 
 
@@ -191,7 +194,8 @@ body > div > div.row > div > section {
     background-color: transparent;
     font-family: 'Bad Script', cursive;
     margin-top: 0px;
-    margin-bottom:-40px;
+    margin-bottom:15px;
+    padding:20px;
 }
 
 
@@ -207,7 +211,7 @@ body > div > div.row > div > section {
     font-size:25px;
 }
 
-.features {
+.imagelink {
     margin:55px;
     padding:55px;
     }
@@ -229,6 +233,35 @@ border-radius: 50%;
 .h3 {
     padding:0px;
 }
+
+
+
+.imagelink {
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----contact form ----*/
 
 .contact {
