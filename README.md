@@ -21,7 +21,7 @@ jQuery
 Stavckoverflow
 CDNjs
 
-<h3>UserX/<h3>
+<h3>UserX</h3>
 As a user I want to access a simple Holiday website that can show me the location I am interested in on a map. 
 This website will highlight all relevant amenities that are relative to me and my holiday choice.
 The website will be free, easy to use, easy to navigate and will be a benefit to the users knowledge of potential holiday locations.
@@ -57,7 +57,7 @@ Bootsrap 4
 Fontawesome
 jQuery
 
-<h3>Testing<h3>
+<h3>Testing</h3>
 For the testing of html I utilized The W3C Markup Validation at https://Servicevalidator.w3.org
 For the testing of CSS I utilized The W3C Markup Validation at https://jigsaw.w3.org/css-validator/validator
 and found they produced no problems other than The type attribute is unnecessary for JavaScript resources. I took this as a non critical error.
@@ -96,77 +96,7 @@ Go to the button "Download" and click it
 Click on either "Open in Desktop" or "Download ZIP"
 
 
-
-The photos used in this site were obtained from https://unsplash.com/ , https://www.freeimages.com/
-https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how  - Stack overflow
-https://www.youtube.com/watch?v=RVA4HoEE_q8 - TheNetNinja Youtube tutorials
-https://developers.google.com/maps/documentation/javascript/places-autocomplete - Google
-https://developers.google.com/maps/documentation/javascript/places -Google
-https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLSL82sIxAdHxxOOIdL4u6waamJgOtTA3C&index=4&t=0s - TraversyMedia tutorial
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Your Project's Name
-Travelsome - Holidays
-https://davewalsh3.github.io/Interactive-Frontend-Development-Milestone-Project/
-
-
-
-UX
-
-
-
-
-Features
-
-Media
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-For this project I utilized HTML, CSS, Javscript, JQUERY and alot from https://developers.google.com/maps/documentation. 
-Bootstrap for my layout and Navbar elements
+Resources used: 
 The photos used in this site were obtained from https://unsplash.com/ , https://www.freeimages.com/
 https://stackoverflow.com/questions/49714599/google-map-with-multiple-locations-in-html-using-javascript-on-button-click-how  - Stack overflow
 https://www.youtube.com/watch?v=RVA4HoEE_q8 - TheNetNinja Youtube tutorials
