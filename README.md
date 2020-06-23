@@ -49,6 +49,8 @@ As a landing page, the Map and Jumbotron related to the website brand will appea
 Below the map, there will be numerous buttons sat atop picture/hyperlink buttons.
 The buttons will redirect the map to a city in the named country.
 The image/hyperlink below will redirect the user to third party package holiday company.
+By clicking on the 'Brand' on the navbar you will be redirected to the top of the page. This makes aceess to desired content instant and intuitive.
+A smooth scroll CSS function was applied for ease of use.
 
 <h4>Technologies</h4>
 HTML 5
