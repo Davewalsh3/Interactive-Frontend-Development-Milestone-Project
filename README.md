@@ -99,10 +99,10 @@ https://davewalsh3.github.io/Interactive-Frontend-Development-Milestone-Project/
 
 
 If you wish to contribute to this porject, please do the following:
-Login into Github
-Click on my repository
-Go to the button "Download" and click it
-Click on either "Open in Desktop" or "Download ZIP"
+Login into Github.com.
+Click on my repository.
+Go to the "Download" icon and click.
+Click on either "Open in Desktop" or "Download ZIP".
 
 
 Resources used: 
