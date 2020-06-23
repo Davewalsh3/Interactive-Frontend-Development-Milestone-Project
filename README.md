@@ -62,19 +62,18 @@ For the testing of html I utilized The W3C Markup Validation at https://Servicev
 For the testing of CSS I utilized The W3C Markup Validation at https://jigsaw.w3.org/css-validator/validator
 and found they produced no problems other than The type attribute is unnecessary for JavaScript resources. I took this as a non critical error.
  
-I found in testing my elements were collapsing on top of each other when minimized to smaller screen sized, I therefore fix my broke media queries and this resolved the issue.
-By clicking on the links in the navbar you will be redirected to content of the page titled in the nav. this makes aceess to desired content instant and intuitive. A smooth scroll CSS function was applied to generate a more pleasent user experience.
+I found in testing my elements were collapsing on top of each other when minimized to smaller screen sized, I therefore fixed my broken media queries and this resolved the issue.
 I was unable initally to allow my Maps Autocomplete function, and my JS code to relocate the map when the user clicked the image.
 
 The return to the top Button which appears on upscroll on mobile.
-The linking to github repository
-The website was tested across multiple internet browsers such as:
+Access to github repository
+The website was tested across multiple browsers:
 Chrome
 Internet Explorer
 Safari
 Mozzila Firefox
 
-The website was also tested on phones such as:
+The website was tested on phones such as:
 - SamsungGalaxy S9
 - Samsung Galaxy A50
 - iPhone 6/7/8
