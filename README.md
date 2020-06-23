@@ -50,7 +50,8 @@ Below the map, there will be numerous buttons sat atop picture/hyperlink buttons
 The buttons will redirect the map to a city in the named country.
 The image/hyperlink below will redirect the user to third party package holiday company.
 By clicking on the 'Brand' on the navbar you will be redirected to the top of the page. This makes aceess to desired content instant and intuitive.
-A smooth scroll CSS function was applied for ease of use.
+A smooth scroll CSS function was applied for ease of use. The Navbar is available at all times when scrolling.
+The user is able to contact the website owner via an online form which redirects to a specified gmail account. 
 
 <h4>Technologies</h4>
 HTML 5
@@ -65,6 +66,10 @@ jQuery
 For the testing of html I utilized The W3C Markup Validation at https://Servicevalidator.w3.org
 For the testing of CSS I utilized The W3C Markup Validation at https://jigsaw.w3.org/css-validator/validator
 and found they produced no problems other than The type attribute is unnecessary for JavaScript resources. I took this as a non critical error.
+Tested email function works.
+
+user : dwcodingcontact@gmail.com
+pw: coding1234
  
 I found in testing my elements were collapsing on top of each other when minimized to smaller screen sized, I therefore fixed my broken media queries and this resolved the issue.
 I was unable initally to allow my Maps Autocomplete function, and my JS code to relocate the map when the user clicked the image. I was able to resolve this after a quite a while.

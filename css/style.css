@@ -37,6 +37,10 @@
 
 
 
+.html {
+  scroll-behavior: smooth;
+}
+
 
 .html, body {
  
@@ -45,6 +49,11 @@
   background-image: radial-gradient(#aadaff, #fff, rgb(230, 235, 230));
   
 }
+
+
+
+
+
 
 /* Navbar */
 .navbar {
@@ -67,6 +76,8 @@
     font-weight: bold;  
     padding:0px;   
 }  
+
+
 
 
 
@@ -106,6 +117,10 @@ div.transbox p {
  
 
 
+
+
+
+
 /*Jumbotron*/
 
 body > div > div.row > div > section {
@@ -117,6 +132,8 @@ body > div > div.row > div > section {
     padding:20px;
     margin-top:20px;
 }
+
+
 
 
 
@@ -207,6 +224,8 @@ body > div > div.row > div > section {
       }
 
  
+
+
  
 /* features */
 
@@ -253,9 +272,13 @@ body > div.container-fluid > div.alert > p {
 }
 
 
+
+
+
+
 /*----contact form ----*/
 
-.contact {
+.help {
     font-weight: bold;
     font-family: 'Bad Script', cursive;
     font-weight: 300;
