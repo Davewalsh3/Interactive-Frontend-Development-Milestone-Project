@@ -75,10 +75,10 @@ The website was tested across multiple browsers:
 Chrome
 Internet Explorer
 Safari
-Mozzila Firefox
+Mozilla Firefox
 
 The website was tested on phones such as:
-- SamsungGalaxy S9
+- Samsung Galaxy S9
 - Samsung Galaxy A50
 - iPhone 6/7/8
 - iPad 
@@ -92,7 +92,7 @@ Please click here to get to the website.
 https://davewalsh3.github.io/Interactive-Frontend-Development-Milestone-Project/
 
 
-<i>If you wish to contribute tothis porject, please do the following:</i>
+If you wish to contribute to this porject, please do the following:
 Login into Github
 Click on my repository
 Go to the button "Download" and click it
