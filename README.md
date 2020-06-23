@@ -68,11 +68,12 @@ For the testing of CSS I utilized The W3C Markup Validation at https://jigsaw.w3
 and found they produced no problems other than The type attribute is unnecessary for JavaScript resources. I took this as a non critical error.
 Tested email function works.
 
-user : dwcodingcontact@gmail.com
-pw: coding1234
+user : travelsome1234@gmail.com
+pw: Coding1234 (case sensitive)
  
 I found in testing my elements were collapsing on top of each other when minimized to smaller screen sized, I therefore fixed my broken media queries and this resolved the issue.
 I was unable initally to allow my Maps Autocomplete function, and my JS code to relocate the map when the user clicked the image. I was able to resolve this after a quite a while.
+My Sendemail.JS login also had to be reset as I found the emails were not being recieved.
 
 The return to the top Button which appears on upscroll on mobile.
 Access to github repository
