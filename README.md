@@ -21,7 +21,7 @@ jQuery
 Stavckoverflow
 CDNjs
 
-<h3>UserX<h3>
+<h3>UserX/<h3>
 As a user I want to access a simple Holiday website that can show me the location I am interested in on a map. 
 This website will highlight all relevant amenities that are relative to me and my holiday choice.
 The website will be free, easy to use, easy to navigate and will be a benefit to the users knowledge of potential holiday locations.
