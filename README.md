@@ -55,9 +55,11 @@ A smooth scroll CSS function was applied for ease of use.
 <h4>Technologies</h4>
 HTML 5
 CSS
+Javascript
 Bootsrap 4
 Fontawesome
 jQuery
+
 
 <h3>Testing</h3>
 For the testing of html I utilized The W3C Markup Validation at https://Servicevalidator.w3.org
@@ -65,7 +67,7 @@ For the testing of CSS I utilized The W3C Markup Validation at https://jigsaw.w3
 and found they produced no problems other than The type attribute is unnecessary for JavaScript resources. I took this as a non critical error.
  
 I found in testing my elements were collapsing on top of each other when minimized to smaller screen sized, I therefore fixed my broken media queries and this resolved the issue.
-I was unable initally to allow my Maps Autocomplete function, and my JS code to relocate the map when the user clicked the image.
+I was unable initally to allow my Maps Autocomplete function, and my JS code to relocate the map when the user clicked the image. I was able to resolve this after a quite a while.
 
 The return to the top Button which appears on upscroll on mobile.
 Access to github repository
@@ -89,8 +91,8 @@ To deploy the project I used github pages in order to do so:
 Please click here to get to the website.
 https://davewalsh3.github.io/Interactive-Frontend-Development-Milestone-Project/
 
-If you wish to contribute tothis porject, please do the following:
 
+<i>If you wish to contribute tothis porject, please do the following:</i>
 Login into Github
 Click on my repository
 Go to the button "Download" and click it
